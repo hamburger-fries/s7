@@ -1,0 +1,22 @@
+/* ------------------------------ */
+
+/* Admin Dashboard Custom Styling */
+
+/* ------------------------------ */
+
+.form-table input[type="checkbox"],.form-table input[type="radio"] {
+	margin-right: 8px !important;
+}
+
+.form-table tr td:first-child {
+	vertical-align: top;
+}
+
+.sidebar_management h3 {
+	font-size: 12px;
+	margin: 3px 0;
+}
+
+.sidebar_management .item-controls {
+	line-height: 42px;
+}

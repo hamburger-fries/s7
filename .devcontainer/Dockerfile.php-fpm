@@ -1,0 +1,60 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install basic dependencies
+RUN apt-get update && apt-get install -y \
+    software-properties-common \
+    gnupg \
+    ca-certificates \
+    lsb-release \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Add PHP repository (Ondřej PPA for Ubuntu)
+RUN add-apt-repository -y ppa:ondrej/php \
+    && apt-get update
+
+# Install PHP-FPM and extensions
+RUN apt-get install -y \
+    php8.1-fpm \
+    php8.1-mysql \
+    php8.1-cli \
+    php8.1-curl \
+    php8.1-xml \
+    php8.1-mbstring \
+    php8.1-zip \
+    php8.1-gd \
+    php8.1-intl \
+    php8.1-bcmath \
+    php8.1-soap \
+    php8.1-imagick \
+    && rm -rf /var/lib/apt/lists/*
+
+# Configure PHP-FPM
+RUN sed -i 's/listen = \/run\/php\/php8.1-fpm.sock/listen = 9000/g' /etc/php/8.1/fpm/pool.d/www.conf \
+    && mkdir -p /run/php \
+    && touch /run/php/php8.1-fpm.pid
+
+# Create www-data user with specific UID/GID
+RUN usermod -u 1000 www-data \
+    && groupmod -g 1000 www-data
+
+# Set up PHP-FPM to run as www-data
+RUN sed -i "s/user = www-data/user = www-data/g" /etc/php/8.1/fpm/pool.d/www.conf \
+    && sed -i "s/group = www-data/group = www-data/g" /etc/php/8.1/fpm/pool.d/www.conf
+
+# Set proper permissions
+RUN mkdir -p /var/www/html \
+    && chown -R www-data:www-data /var/www/html
+
+WORKDIR /var/www/html
+
+# Configure PHP-FPM status page
+RUN echo "pm.status_path = /status" >> /etc/php/8.1/fpm/pool.d/www.conf
+
+# Health check for PHP-FPM
+HEALTHCHECK --interval=30s --timeout=3s --start-period=30s --retries=3 \
+    CMD SCRIPT_NAME=/status SCRIPT_FILENAME=/status REQUEST_METHOD=GET cgi-fcgi -bind -connect 127.0.0.1:9000 || exit 1
+
+CMD ["/usr/sbin/php-fpm8.1", "-F"]

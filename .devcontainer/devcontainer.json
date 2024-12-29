@@ -1,0 +1,30 @@
+{
+  "name": "WordPress Development",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "wordpress",
+  "workspaceFolder": "/var/www/html",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "updateRemoteUserUID": true,
+  "settings": {
+    "php.validate.executablePath": "/usr/bin/php",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+      "zsh": {
+        "path": "/bin/zsh"
+      }
+    }
+  },
+  "extensions": [
+    "felixfbecker.php-debug",
+    "bmewburn.vscode-intelephense-client",
+    "mrmlnc.vscode-apache"
+  ],
+  "forwardPorts": [80, 3307, 8083],
+  "postCreateCommand": [
+    "bash",
+    "-c",
+    "sudo mkdir -p /var/www/html && sudo chown -R vscode:vscode /var/www/html && sudo find /var/www/html -type d -exec chmod 755 {} \\; && sudo find /var/www/html -type f -exec chmod 644 {} \\;"
+  ],
+  "shutdownAction": "stopCompose"
+}

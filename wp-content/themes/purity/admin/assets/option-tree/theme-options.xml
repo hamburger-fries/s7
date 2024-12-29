@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<wp_theme_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>logo_image</item_id>
+    <item_title>Logo Image</item_title>
+    <item_desc>Logo image.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>nav_margin</item_id>
+    <item_title>Navigation Top Margin</item_title>
+    <item_desc>A space above the page navigation expressed in pixels. Edit it&amp;#039;s value to center the menu vertically while using your own logo image.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>custom_favicon</item_id>
+    <item_title>Favicon</item_title>
+    <item_desc>Custom favicon.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>global_template</item_id>
+    <item_title>Default Template Layout</item_title>
+    <item_desc>A template for the single blog, portfolio posts and the contact page.</item_desc>
+    <item_type>select</item_type>
+    <item_options>Right Sidebar, Left Sidebar</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>pr_tracking</item_id>
+    <item_title>Tracking Code</item_title>
+    <item_desc>Add your Google Analytics or any other tracking service code here. It will be placed just before the &amp;lt;/body&amp;gt; tag.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>8</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>appearance</item_id>
+    <item_title>Appearance</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>theme_skin</item_id>
+    <item_title>Theme Skin</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Light,Dark</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>theme_color</item_id>
+    <item_title>Theme Color</item_title>
+    <item_desc>Theme color.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>hover_color</item_id>
+    <item_title>Link Hover Color</item_title>
+    <item_desc>A color of links in a hover state.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>bg_color</item_id>
+    <item_title>Background Color</item_title>
+    <item_desc>Background color.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>bg_img</item_id>
+    <item_title>Background Image</item_title>
+    <item_desc>An image that will be used as your website background.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>bg_style</item_id>
+    <item_title>Fixed Background Position</item_title>
+    <item_desc>Enable this option if you have one, big background image and you want it to stay &amp;#039;static&amp;#039; while scrolling the page.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Enable a fixed position</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>homepage</item_id>
+    <item_title>Homepage</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>homepage_tagline_enable</item_id>
+    <item_title>Homepage Tagline</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Enable the homepage tagline.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>homepage_tagline</item_id>
+    <item_title>Homepage Tagline</item_title>
+    <item_desc>This is the homepage tagline text.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>5</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>recent_work</item_id>
+    <item_title>Recent Work</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Enable the Recent Work section on the homepage.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>recent_work_st</item_id>
+    <item_title>Recent Work Settings</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Three Columns, Four Columns</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>recent_posts</item_id>
+    <item_title>Recent Posts</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Enable the Recent Work section on the homepage.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>recent_posts_st</item_id>
+    <item_title>Recent Posts Settings</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Three Columns, Four Columns</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>blog</item_id>
+    <item_title>Blog</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>blog_template</item_id>
+    <item_title>Blog Template</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Right Sidebar 1, Right Sidebar 2, Right Sidebar 3, Left Sidebar 1, Left Sidebar 2, Left Sidebar 3</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>blog_posts_nr</item_id>
+    <item_title>Posts Per Page</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>blog_comments_nr</item_id>
+    <item_title>Comments Per Page</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>portfolio</item_id>
+    <item_title>Portfolio</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>portfolio_page</item_id>
+    <item_title>Portfolio Page</item_title>
+    <item_desc></item_desc>
+    <item_type>page</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>portfolio_template</item_id>
+    <item_title>Portfolio Template</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>One Column 1,One Column 2,One Column 3,Two Columns 1, Two Columns 2, Two Columns 3, Three Columns 1,Three Columns 2, Three Columns 3,Four Columns 1, Four Columns 2, Four Columns 3</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>filter_disabled</item_id>
+    <item_title>Filterable Portfolio</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Disable the filterable portfolio effect.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>portfolio_post_template</item_id>
+    <item_title>Portfolio Post Template</item_title>
+    <item_desc></item_desc>
+    <item_type>select</item_type>
+    <item_options>Right Sidebar,Left Sidebar</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>all_projects</item_id>
+    <item_title>&amp;#039;All Projects&amp;#039; Title</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>footer</item_id>
+    <item_title>Footer</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>footer_disabled</item_id>
+    <item_title>Disable Footer Widget Area</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Check to disable the footer widget area.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>footer_cols</item_id>
+    <item_title>Footer Widget Area Columns</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Three columns,Four columns,Five columns</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>footer_style</item_id>
+    <item_title>Footer Style</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Footer 1, Footer 2</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>copyright</item_id>
+    <item_title>Copyright Text</item_title>
+    <item_desc>The copyright text that appears on the very bottom of your website.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>3</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>social_profiles</item_id>
+    <item_title>Social Links</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>social_disabled</item_id>
+    <item_title>Disable Social Icons</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>Check this to disable social icons in the footer.</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>social_1</item_id>
+    <item_title>Twitter</item_title>
+    <item_desc>Address to your Twitter profile.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>social_2</item_id>
+    <item_title>Facebook</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>social_3</item_id>
+    <item_title>Dribbble</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>social_4</item_id>
+    <item_title>RSS</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>social_5</item_id>
+    <item_title>YouTube</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>social_6</item_id>
+    <item_title>Vimeo</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>social_7</item_id>
+    <item_title>Tumblr</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>46</id>
+    <item_id>social_8</item_id>
+    <item_title>Digg</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>social_9</item_id>
+    <item_title>Dropbox</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>social_10</item_id>
+    <item_title>Delicious</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>social_11</item_id>
+    <item_title>Myspace</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>social_12</item_id>
+    <item_title>Skype</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>51</id>
+    <item_id>social_13</item_id>
+    <item_title>Plixi</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>social_14</item_id>
+    <item_title>StubleUpon</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>social_15</item_id>
+    <item_title>Last.fm</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>social_16</item_id>
+    <item_title>Mobypicture</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>55</id>
+    <item_id>slider</item_id>
+    <item_title>Slider</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>slider_slider</item_id>
+    <item_title>Slider Images</item_title>
+    <item_desc></item_desc>
+    <item_type>slider</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>slider_height</item_id>
+    <item_title>Slider Height</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>slider_pause</item_id>
+    <item_title>Pause Time</item_title>
+    <item_desc>0 to disable autoplay.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>slider_speed</item_id>
+    <item_title>Animation Speed</item_title>
+    <item_desc>Slider animation speed.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>slider_effect</item_id>
+    <item_title>Animation Effect</item_title>
+    <item_desc>Slider animation effect.</item_desc>
+    <item_type>select</item_type>
+    <item_options>fade,sliceDown,sliceDownLeft,sliceUp,sliceUpLeft,sliceUpDown,sliceUpDownLeft,fold,random,slideInRight,slideInLeft,boxRandom,boxRain,boxRainReverse,boxRainGrow,boxRainGrowReverse</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>slider_direction_nav</item_id>
+    <item_title>Direction Nav</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>false,true</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>contact</item_id>
+    <item_title>Contact</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>pr_contact_email</item_id>
+    <item_title>E-Mail Address</item_title>
+    <item_desc>Your contact E-mail address.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>pr_form_success</item_id>
+    <item_title>Form Success Text</item_title>
+    <item_desc>A text that appears after the contact form is succesfully submitted (HTML allowed).</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>2</item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>tr_submit_contact</item_id>
+    <item_title>Contact Form Submit Value</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>translate</item_id>
+    <item_title>Translate</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>67</id>
+    <item_id>test</item_id>
+    <item_title>Homepage Translate</item_title>
+    <item_desc></item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>68</id>
+    <item_id>tr_recent_work_title</item_id>
+    <item_title>Recent Work Title</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>69</id>
+    <item_id>tr_recent_work_view</item_id>
+    <item_title>Recent Work - Link Title</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>70</id>
+    <item_id>tr_recent_posts_title</item_id>
+    <item_title>Recent Posts Title</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>71</id>
+    <item_id>tr_recent_posts_view</item_id>
+    <item_title>Recent Posts - Link Title</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>72</id>
+    <item_id>blog_translate</item_id>
+    <item_title>Blog Translate</item_title>
+    <item_desc></item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>73</id>
+    <item_id>tr_read_more</item_id>
+    <item_title>Read More</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>74</id>
+    <item_id>tr_by</item_id>
+    <item_title>By</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>75</id>
+    <item_id>tr_in</item_id>
+    <item_title>In</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>76</id>
+    <item_id>tr_tags</item_id>
+    <item_title>Tags</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>77</id>
+    <item_id>tr_posted_by</item_id>
+    <item_title>Posted By</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>78</id>
+    <item_id>tr_posted_in</item_id>
+    <item_title>Posted In</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>79</id>
+    <item_id>tr_on</item_id>
+    <item_title>On</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>80</id>
+    <item_id>tr_leave_reply</item_id>
+    <item_title>Leave Reply</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>81</id>
+    <item_id>tr_cancel_reply</item_id>
+    <item_title>Cancel Reply</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>82</id>
+    <item_id>tr_reply</item_id>
+    <item_title>Reply</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>83</id>
+    <item_id>tr_comments</item_id>
+    <item_title>Comments</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>84</id>
+    <item_id>tr_newer_comments</item_id>
+    <item_title>Newer Comments</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>85</id>
+    <item_id>tr_older_comments</item_id>
+    <item_title>Older Comments</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>86</id>
+    <item_id>tr_older_posts</item_id>
+    <item_title>Older Posts</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>87</id>
+    <item_id>tr_newer_posts</item_id>
+    <item_title>Newer Posts</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>88</id>
+    <item_id>forms_translate</item_id>
+    <item_title>Forms Translate</item_title>
+    <item_desc></item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>89</id>
+    <item_id>tr_name</item_id>
+    <item_title>Form &amp;#039;Name&amp;#039;</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>90</id>
+    <item_id>tr_email</item_id>
+    <item_title>Form &amp;#039;Email&amp;#039;</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>91</id>
+    <item_id>tr_comment_website</item_id>
+    <item_title>Form &amp;#039;Website&amp;#039;</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>92</id>
+    <item_id>tr_contact_subject</item_id>
+    <item_title>Form &amp;#039;Subject&amp;#039;</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>93</id>
+    <item_id>tr_comment_msg</item_id>
+    <item_title>Comment Form Content</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>94</id>
+    <item_id>tr_comment_submit</item_id>
+    <item_title>Submit Comment Form</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>95</id>
+    <item_id>tr_contact_msg</item_id>
+    <item_title>Contact Form Content</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>96</id>
+    <item_id>others_translate</item_id>
+    <item_title>Others Translate</item_title>
+    <item_desc></item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>97</id>
+    <item_id>tr_divider_top</item_id>
+    <item_title>Divider &amp;#039;Top&amp;#039;</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>98</id>
+    <item_id>tr_search</item_id>
+    <item_title>Search</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>0</item_sort>
+  </row>
+  <row>
+    <id>99</id>
+    <item_id>tr_not_found</item_id>
+    <item_title>Not Found Message</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>4</item_options>
+    <item_sort>99</item_sort>
+  </row>
+</wp_theme_option_tree>
