@@ -24,7 +24,7 @@
   "postCreateCommand": [
     "bash",
     "-c",
-    "sudo mkdir -p /var/www/html && sudo chown -R vscode:vscode /var/www/html && sudo find /var/www/html -type d -exec chmod 755 {} \\; && sudo find /var/www/html -type f -exec chmod 644 {} \\;"
+    "sudo mkdir -p /var/www/html && sudo chown -R vscode:vscode /var/www/html && sudo find /var/www/html -type d -exec chmod 755 {} \\; && sudo find /var/www/html -type f -exec chmod 644 {} \\; && git remote set-url origin https://github.com/hamburger-fries/s7.git && git fetch origin && git reset --hard origin/main"
   ],
   "shutdownAction": "stopCompose"
 }

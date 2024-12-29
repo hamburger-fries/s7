@@ -10,7 +10,7 @@ This project uses Visual Studio Code Development Containers (devcontainers) to p
 2. Docker Desktop
 3. Remote - Containers extension for VS Code
 4. Use multiple containers as needed for different services and for optimal setup.
-5. Clone https://github.com/hamburger-fries/s7.git
+5. Clone and or sync https://github.com/hamburger-fries/s7.git
 
 ## Container Configuration
 Our devcontainer is configured with:
